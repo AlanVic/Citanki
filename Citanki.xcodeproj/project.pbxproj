@@ -3,17 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92D9557822CA40F900F34DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9557722CA40F900F34DB8 /* AppDelegate.swift */; };
+		2BCB22666ABD7792DDDC3BBF /* Pods_Citanki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75453419CCC840D87D2F493 /* Pods_Citanki.framework */; };
+		4DA22AE56C7F87E0C39EB408 /* Pods_CitankiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F06BB15EE60270E135A02F7 /* Pods_CitankiUITests.framework */; };
 		92D9557A22CA40F900F34DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9557922CA40F900F34DB8 /* ViewController.swift */; };
-		92D9557D22CA40F900F34DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D9557B22CA40F900F34DB8 /* Main.storyboard */; };
-		92D9557F22CA40FB00F34DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D9557E22CA40FB00F34DB8 /* Assets.xcassets */; };
-		92D9558222CA40FB00F34DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D9558022CA40FB00F34DB8 /* LaunchScreen.storyboard */; };
 		92D9558D22CA40FB00F34DB8 /* CitankiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9558C22CA40FB00F34DB8 /* CitankiTests.swift */; };
 		92D9559822CA40FB00F34DB8 /* CitankiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9559722CA40FB00F34DB8 /* CitankiUITests.swift */; };
+		92D955E422CA474900F34DB8 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D955DA22CA474900F34DB8 /* PhotoCollectionViewCell.xib */; };
+		92D955E522CA474900F34DB8 /* HeaderNewDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955DB22CA474900F34DB8 /* HeaderNewDeck.swift */; };
+		92D955E622CA474900F34DB8 /* DeckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955DC22CA474900F34DB8 /* DeckTableViewCell.swift */; };
+		92D955E722CA474900F34DB8 /* HeaderCardsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955DD22CA474900F34DB8 /* HeaderCardsTable.swift */; };
+		92D955E822CA474900F34DB8 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955DE22CA474900F34DB8 /* CardTableViewCell.swift */; };
+		92D955E922CA474900F34DB8 /* HeaderCardsTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D955DF22CA474900F34DB8 /* HeaderCardsTable.xib */; };
+		92D955EA22CA474900F34DB8 /* HeaderNewDeck.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D955E022CA474900F34DB8 /* HeaderNewDeck.xib */; };
+		92D955EB22CA474900F34DB8 /* DeckTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D955E122CA474900F34DB8 /* DeckTableViewCell.xib */; };
+		92D955EC22CA474900F34DB8 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955E222CA474900F34DB8 /* PhotoCollectionViewCell.swift */; };
+		92D955ED22CA474900F34DB8 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D955E322CA474900F34DB8 /* CardTableViewCell.xib */; };
+		92D955FB22CA475F00F34DB8 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955EF22CA475F00F34DB8 /* CoreDataModel.swift */; };
+		92D955FC22CA475F00F34DB8 /* Citanki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92D955F022CA475F00F34DB8 /* Citanki.xcdatamodeld */; };
+		92D955FD22CA475F00F34DB8 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955F322CA475F00F34DB8 /* Deck.swift */; };
+		92D955FE22CA475F00F34DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D955F522CA475F00F34DB8 /* LaunchScreen.storyboard */; };
+		92D955FF22CA475F00F34DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D955F722CA475F00F34DB8 /* Main.storyboard */; };
+		92D9560022CA475F00F34DB8 /* QuotesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D955FA22CA475F00F34DB8 /* QuotesApi.swift */; };
+		92D9560B22CA476800F34DB8 /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560222CA476800F34DB8 /* NotificationDelegate.swift */; };
+		92D9560C22CA476800F34DB8 /* DetailsDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560422CA476800F34DB8 /* DetailsDeckViewController.swift */; };
+		92D9560D22CA476800F34DB8 /* PeekViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560522CA476800F34DB8 /* PeekViewViewController.swift */; };
+		92D9560E22CA476800F34DB8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560622CA476800F34DB8 /* SearchViewController.swift */; };
+		92D9560F22CA476800F34DB8 /* DecksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560722CA476800F34DB8 /* DecksViewController.swift */; };
+		92D9561022CA476800F34DB8 /* PhotoTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560822CA476800F34DB8 /* PhotoTextViewController.swift */; };
+		92D9561122CA476800F34DB8 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560922CA476800F34DB8 /* PhotosViewController.swift */; };
+		92D9561222CA476800F34DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560A22CA476800F34DB8 /* AppDelegate.swift */; };
+		92D9561422CA477200F34DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D9561322CA477200F34DB8 /* Assets.xcassets */; };
+		92D9561B22CA532300F34DB8 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92D9561A22CA532300F34DB8 /* info.plist */; };
+		941F564F6A6F54F6D367D13E /* Pods_CitankiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D59DBD5FB673FA2CF520328 /* Pods_CitankiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +59,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06617C807AC04F243602E753 /* Pods-Citanki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.release.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.release.xcconfig"; sourceTree = "<group>"; };
+		2F06BB15EE60270E135A02F7 /* Pods_CitankiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitankiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A6C0C3946BB9AEF156EFA3 /* Pods-CitankiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiTests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiTests/Pods-CitankiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D59DBD5FB673FA2CF520328 /* Pods_CitankiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitankiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C8D4A6AA0C12B10C8FFE34 /* Pods-Citanki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.debug.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.debug.xcconfig"; sourceTree = "<group>"; };
 		92D9557422CA40F900F34DB8 /* Citanki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citanki.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92D9557722CA40F900F34DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92D9557922CA40F900F34DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92D9557C22CA40F900F34DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92D9557E22CA40FB00F34DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92D9558122CA40FB00F34DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92D9558322CA40FB00F34DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92D9558822CA40FB00F34DB8 /* CitankiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitankiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D9558C22CA40FB00F34DB8 /* CitankiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitankiTests.swift; sourceTree = "<group>"; };
 		92D9558E22CA40FB00F34DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92D9559322CA40FB00F34DB8 /* CitankiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitankiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D9559722CA40FB00F34DB8 /* CitankiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitankiUITests.swift; sourceTree = "<group>"; };
 		92D9559922CA40FB00F34DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D955DA22CA474900F34DB8 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		92D955DB22CA474900F34DB8 /* HeaderNewDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderNewDeck.swift; sourceTree = "<group>"; };
+		92D955DC22CA474900F34DB8 /* DeckTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTableViewCell.swift; sourceTree = "<group>"; };
+		92D955DD22CA474900F34DB8 /* HeaderCardsTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCardsTable.swift; sourceTree = "<group>"; };
+		92D955DE22CA474900F34DB8 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		92D955DF22CA474900F34DB8 /* HeaderCardsTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCardsTable.xib; sourceTree = "<group>"; };
+		92D955E022CA474900F34DB8 /* HeaderNewDeck.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderNewDeck.xib; sourceTree = "<group>"; };
+		92D955E122CA474900F34DB8 /* DeckTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeckTableViewCell.xib; sourceTree = "<group>"; };
+		92D955E222CA474900F34DB8 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		92D955E322CA474900F34DB8 /* CardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		92D955EF22CA475F00F34DB8 /* CoreDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		92D955F122CA475F00F34DB8 /* Citanki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Citanki.xcdatamodel; sourceTree = "<group>"; };
+		92D955F322CA475F00F34DB8 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		92D955F622CA475F00F34DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92D955F822CA475F00F34DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92D955FA22CA475F00F34DB8 /* QuotesApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesApi.swift; sourceTree = "<group>"; };
+		92D9560222CA476800F34DB8 /* NotificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		92D9560422CA476800F34DB8 /* DetailsDeckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDeckViewController.swift; sourceTree = "<group>"; };
+		92D9560522CA476800F34DB8 /* PeekViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekViewViewController.swift; sourceTree = "<group>"; };
+		92D9560622CA476800F34DB8 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		92D9560722CA476800F34DB8 /* DecksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecksViewController.swift; sourceTree = "<group>"; };
+		92D9560822CA476800F34DB8 /* PhotoTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTextViewController.swift; sourceTree = "<group>"; };
+		92D9560922CA476800F34DB8 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		92D9560A22CA476800F34DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92D9561322CA477200F34DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92D9561A22CA532300F34DB8 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		C2A5CBCDF79F436F18FB08D7 /* Pods-CitankiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.release.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1AAFF2A99B4F29AB450FD08 /* Pods-CitankiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E75453419CCC840D87D2F493 /* Pods_Citanki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Citanki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AD10E4274BDAE8D19EEB7D /* Pods-CitankiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiTests.release.xcconfig"; path = "Target Support Files/Pods-CitankiTests/Pods-CitankiTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCB22666ABD7792DDDC3BBF /* Pods_Citanki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941F564F6A6F54F6D367D13E /* Pods_CitankiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +125,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA22AE56C7F87E0C39EB408 /* Pods_CitankiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31E8A2FBBC8DCA616545C10E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75453419CCC840D87D2F493 /* Pods_Citanki.framework */,
+				8D59DBD5FB673FA2CF520328 /* Pods_CitankiTests.framework */,
+				2F06BB15EE60270E135A02F7 /* Pods_CitankiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A14DD320848833827597DD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C8D4A6AA0C12B10C8FFE34 /* Pods-Citanki.debug.xcconfig */,
+				06617C807AC04F243602E753 /* Pods-Citanki.release.xcconfig */,
+				80A6C0C3946BB9AEF156EFA3 /* Pods-CitankiTests.debug.xcconfig */,
+				F1AD10E4274BDAE8D19EEB7D /* Pods-CitankiTests.release.xcconfig */,
+				E1AAFF2A99B4F29AB450FD08 /* Pods-CitankiUITests.debug.xcconfig */,
+				C2A5CBCDF79F436F18FB08D7 /* Pods-CitankiUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		92D9556B22CA40F900F34DB8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +162,8 @@
 				92D9558B22CA40FB00F34DB8 /* CitankiTests */,
 				92D9559622CA40FB00F34DB8 /* CitankiUITests */,
 				92D9557522CA40F900F34DB8 /* Products */,
+				4A14DD320848833827597DD9 /* Pods */,
+				31E8A2FBBC8DCA616545C10E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +180,16 @@
 		92D9557622CA40F900F34DB8 /* Citanki */ = {
 			isa = PBXGroup;
 			children = (
-				92D9557722CA40F900F34DB8 /* AppDelegate.swift */,
+				92D9561322CA477200F34DB8 /* Assets.xcassets */,
 				92D9557922CA40F900F34DB8 /* ViewController.swift */,
-				92D9557B22CA40F900F34DB8 /* Main.storyboard */,
-				92D9557E22CA40FB00F34DB8 /* Assets.xcassets */,
-				92D9558022CA40FB00F34DB8 /* LaunchScreen.storyboard */,
-				92D9558322CA40FB00F34DB8 /* Info.plist */,
+				92D9561A22CA532300F34DB8 /* info.plist */,
+				92D9560322CA476800F34DB8 /* Controllers */,
+				92D9560122CA476800F34DB8 /* Delegates */,
+				92D955F222CA475F00F34DB8 /* Model */,
+				92D955EE22CA475F00F34DB8 /* Persistence */,
+				92D955F922CA475F00F34DB8 /* QuotesWrapper */,
+				92D955F422CA475F00F34DB8 /* Storyboards */,
+				92D955D922CA474900F34DB8 /* Xibs */,
 			);
 			path = Citanki;
 			sourceTree = "<group>";
@@ -125,6 +212,79 @@
 			path = CitankiUITests;
 			sourceTree = "<group>";
 		};
+		92D955D922CA474900F34DB8 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				92D955DA22CA474900F34DB8 /* PhotoCollectionViewCell.xib */,
+				92D955DB22CA474900F34DB8 /* HeaderNewDeck.swift */,
+				92D955DC22CA474900F34DB8 /* DeckTableViewCell.swift */,
+				92D955DD22CA474900F34DB8 /* HeaderCardsTable.swift */,
+				92D955DE22CA474900F34DB8 /* CardTableViewCell.swift */,
+				92D955DF22CA474900F34DB8 /* HeaderCardsTable.xib */,
+				92D955E022CA474900F34DB8 /* HeaderNewDeck.xib */,
+				92D955E122CA474900F34DB8 /* DeckTableViewCell.xib */,
+				92D955E222CA474900F34DB8 /* PhotoCollectionViewCell.swift */,
+				92D955E322CA474900F34DB8 /* CardTableViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		92D955EE22CA475F00F34DB8 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				92D955EF22CA475F00F34DB8 /* CoreDataModel.swift */,
+				92D955F022CA475F00F34DB8 /* Citanki.xcdatamodeld */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		92D955F222CA475F00F34DB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92D955F322CA475F00F34DB8 /* Deck.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92D955F422CA475F00F34DB8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				92D955F522CA475F00F34DB8 /* LaunchScreen.storyboard */,
+				92D955F722CA475F00F34DB8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		92D955F922CA475F00F34DB8 /* QuotesWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				92D955FA22CA475F00F34DB8 /* QuotesApi.swift */,
+			);
+			path = QuotesWrapper;
+			sourceTree = "<group>";
+		};
+		92D9560122CA476800F34DB8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				92D9560222CA476800F34DB8 /* NotificationDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		92D9560322CA476800F34DB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92D9560422CA476800F34DB8 /* DetailsDeckViewController.swift */,
+				92D9560522CA476800F34DB8 /* PeekViewViewController.swift */,
+				92D9560622CA476800F34DB8 /* SearchViewController.swift */,
+				92D9560722CA476800F34DB8 /* DecksViewController.swift */,
+				92D9560822CA476800F34DB8 /* PhotoTextViewController.swift */,
+				92D9560922CA476800F34DB8 /* PhotosViewController.swift */,
+				92D9560A22CA476800F34DB8 /* AppDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D9559C22CA40FB00F34DB8 /* Build configuration list for PBXNativeTarget "Citanki" */;
 			buildPhases = (
+				958D9F2AEB462FDFA30D2118 /* [CP] Check Pods Manifest.lock */,
 				92D9557022CA40F900F34DB8 /* Sources */,
 				92D9557122CA40F900F34DB8 /* Frameworks */,
 				92D9557222CA40F900F34DB8 /* Resources */,
+				0D94EC34EC6586E97576B696 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D9559F22CA40FB00F34DB8 /* Build configuration list for PBXNativeTarget "CitankiTests" */;
 			buildPhases = (
+				120EB08FC6C5B8ECCBCD1DF1 /* [CP] Check Pods Manifest.lock */,
 				92D9558422CA40FB00F34DB8 /* Sources */,
 				92D9558522CA40FB00F34DB8 /* Frameworks */,
 				92D9558622CA40FB00F34DB8 /* Resources */,
@@ -167,6 +330,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D955A222CA40FB00F34DB8 /* Build configuration list for PBXNativeTarget "CitankiUITests" */;
 			buildPhases = (
+				1172CA5434DB43779110B2B4 /* [CP] Check Pods Manifest.lock */,
 				92D9558F22CA40FB00F34DB8 /* Sources */,
 				92D9559022CA40FB00F34DB8 /* Frameworks */,
 				92D9559122CA40FB00F34DB8 /* Resources */,
@@ -229,9 +393,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D9558222CA40FB00F34DB8 /* LaunchScreen.storyboard in Resources */,
-				92D9557F22CA40FB00F34DB8 /* Assets.xcassets in Resources */,
-				92D9557D22CA40F900F34DB8 /* Main.storyboard in Resources */,
+				92D955FF22CA475F00F34DB8 /* Main.storyboard in Resources */,
+				92D955EB22CA474900F34DB8 /* DeckTableViewCell.xib in Resources */,
+				92D9561B22CA532300F34DB8 /* info.plist in Resources */,
+				92D955E422CA474900F34DB8 /* PhotoCollectionViewCell.xib in Resources */,
+				92D955ED22CA474900F34DB8 /* CardTableViewCell.xib in Resources */,
+				92D955FE22CA475F00F34DB8 /* LaunchScreen.storyboard in Resources */,
+				92D955EA22CA474900F34DB8 /* HeaderNewDeck.xib in Resources */,
+				92D9561422CA477200F34DB8 /* Assets.xcassets in Resources */,
+				92D955E922CA474900F34DB8 /* HeaderCardsTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +421,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D94EC34EC6586E97576B696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1172CA5434DB43779110B2B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CitankiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		120EB08FC6C5B8ECCBCD1DF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CitankiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		958D9F2AEB462FDFA30D2118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Citanki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92D9557022CA40F900F34DB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D9560E22CA476800F34DB8 /* SearchViewController.swift in Sources */,
+				92D955E622CA474900F34DB8 /* DeckTableViewCell.swift in Sources */,
+				92D9561222CA476800F34DB8 /* AppDelegate.swift in Sources */,
+				92D955E822CA474900F34DB8 /* CardTableViewCell.swift in Sources */,
+				92D955FD22CA475F00F34DB8 /* Deck.swift in Sources */,
+				92D955FB22CA475F00F34DB8 /* CoreDataModel.swift in Sources */,
+				92D955E722CA474900F34DB8 /* HeaderCardsTable.swift in Sources */,
 				92D9557A22CA40F900F34DB8 /* ViewController.swift in Sources */,
-				92D9557822CA40F900F34DB8 /* AppDelegate.swift in Sources */,
+				92D955EC22CA474900F34DB8 /* PhotoCollectionViewCell.swift in Sources */,
+				92D9560C22CA476800F34DB8 /* DetailsDeckViewController.swift in Sources */,
+				92D9561122CA476800F34DB8 /* PhotosViewController.swift in Sources */,
+				92D9560B22CA476800F34DB8 /* NotificationDelegate.swift in Sources */,
+				92D9560D22CA476800F34DB8 /* PeekViewViewController.swift in Sources */,
+				92D9560022CA475F00F34DB8 /* QuotesApi.swift in Sources */,
+				92D9560F22CA476800F34DB8 /* DecksViewController.swift in Sources */,
+				92D955FC22CA475F00F34DB8 /* Citanki.xcdatamodeld in Sources */,
+				92D9561022CA476800F34DB8 /* PhotoTextViewController.swift in Sources */,
+				92D955E522CA474900F34DB8 /* HeaderNewDeck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +565,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		92D9557B22CA40F900F34DB8 /* Main.storyboard */ = {
+		92D955F522CA475F00F34DB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92D9557C22CA40F900F34DB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92D9558022CA40FB00F34DB8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92D9558122CA40FB00F34DB8 /* Base */,
+				92D955F622CA475F00F34DB8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92D955F722CA475F00F34DB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D955F822CA475F00F34DB8 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,6 +702,7 @@
 		};
 		92D9559D22CA40FB00F34DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C8D4A6AA0C12B10C8FFE34 /* Pods-Citanki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +721,7 @@
 		};
 		92D9559E22CA40FB00F34DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06617C807AC04F243602E753 /* Pods-Citanki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +740,7 @@
 		};
 		92D955A022CA40FB00F34DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A6C0C3946BB9AEF156EFA3 /* Pods-CitankiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +762,7 @@
 		};
 		92D955A122CA40FB00F34DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AD10E4274BDAE8D19EEB7D /* Pods-CitankiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +784,7 @@
 		};
 		92D955A322CA40FB00F34DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AAFF2A99B4F29AB450FD08 /* Pods-CitankiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +805,7 @@
 		};
 		92D955A422CA40FB00F34DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A5CBCDF79F436F18FB08D7 /* Pods-CitankiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -586,6 +864,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92D955F022CA475F00F34DB8 /* Citanki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92D955F122CA475F00F34DB8 /* Citanki.xcdatamodel */,
+			);
+			currentVersion = 92D955F122CA475F00F34DB8 /* Citanki.xcdatamodel */;
+			path = Citanki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 92D9556C22CA40F900F34DB8 /* Project object */;
 }

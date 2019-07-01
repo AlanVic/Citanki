@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderViewNewDeck" customModule="Citanki" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonView" destination="9Rc-gr-FMB" id="SBL-HY-gdy"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="VXc-zb-3Lx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Rc-gr-FMB">
+                    <rect key="frame" x="8" y="4" width="304" height="36"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Novo Deck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QT-8h-iJU">
+                            <rect key="frame" x="110.5" y="7.5" width="83.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.135253507" blue="0.0081401160830000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="7QT-8h-iJU" firstAttribute="centerY" secondItem="9Rc-gr-FMB" secondAttribute="centerY" id="EQ9-3Q-8ao"/>
+                        <constraint firstItem="7QT-8h-iJU" firstAttribute="centerX" secondItem="9Rc-gr-FMB" secondAttribute="centerX" id="JHd-Je-6Rf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9Rc-gr-FMB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="0Fa-JE-foY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9Rc-gr-FMB" secondAttribute="trailing" constant="8" id="ZY5-0d-8m5"/>
+                <constraint firstItem="9Rc-gr-FMB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="hHG-E6-ftz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="9Rc-gr-FMB" secondAttribute="bottom" constant="4" id="qf5-6U-Fay"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-1875" y="-4"/>
+        </view>
+    </objects>
+</document>
