@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BCB22666ABD7792DDDC3BBF /* Pods_Citanki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75453419CCC840D87D2F493 /* Pods_Citanki.framework */; };
-		4DA22AE56C7F87E0C39EB408 /* Pods_CitankiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F06BB15EE60270E135A02F7 /* Pods_CitankiUITests.framework */; };
+		0DA38D33682D6EA919F3CE92 /* Pods_Citanki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AA8A0FA85D27C4CCE1C654 /* Pods_Citanki.framework */; };
+		27119EC2867A691640D6D9E4 /* Pods_CitankiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF14341587D13DFD3252F7FE /* Pods_CitankiTests.framework */; };
 		92D9557A22CA40F900F34DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9557922CA40F900F34DB8 /* ViewController.swift */; };
 		92D9558D22CA40FB00F34DB8 /* CitankiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9558C22CA40FB00F34DB8 /* CitankiTests.swift */; };
 		92D9559822CA40FB00F34DB8 /* CitankiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9559722CA40FB00F34DB8 /* CitankiUITests.swift */; };
@@ -37,8 +37,7 @@
 		92D9561122CA476800F34DB8 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560922CA476800F34DB8 /* PhotosViewController.swift */; };
 		92D9561222CA476800F34DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560A22CA476800F34DB8 /* AppDelegate.swift */; };
 		92D9561422CA477200F34DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D9561322CA477200F34DB8 /* Assets.xcassets */; };
-		92D9561B22CA532300F34DB8 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92D9561A22CA532300F34DB8 /* info.plist */; };
-		941F564F6A6F54F6D367D13E /* Pods_CitankiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D59DBD5FB673FA2CF520328 /* Pods_CitankiTests.framework */; };
+		EB310C2A9DD20E58915C18B5 /* Pods_CitankiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FC6A3ACB4247AD7FE177CA /* Pods_CitankiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,11 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06617C807AC04F243602E753 /* Pods-Citanki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.release.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.release.xcconfig"; sourceTree = "<group>"; };
-		2F06BB15EE60270E135A02F7 /* Pods_CitankiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitankiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A6C0C3946BB9AEF156EFA3 /* Pods-CitankiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiTests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiTests/Pods-CitankiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8D59DBD5FB673FA2CF520328 /* Pods_CitankiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitankiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C8D4A6AA0C12B10C8FFE34 /* Pods-Citanki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.debug.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.debug.xcconfig"; sourceTree = "<group>"; };
+		4CD3B8D79007CD9AD34E3762 /* Pods-CitankiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiTests.release.xcconfig"; path = "Target Support Files/Pods-CitankiTests/Pods-CitankiTests.release.xcconfig"; sourceTree = "<group>"; };
+		519D4FD7501BB43EF197DFB1 /* Pods-CitankiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66AA8A0FA85D27C4CCE1C654 /* Pods_Citanki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Citanki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED487D1DFFED2A461AA76CE /* Pods-Citanki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.debug.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.debug.xcconfig"; sourceTree = "<group>"; };
 		92D9557422CA40F900F34DB8 /* Citanki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citanki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D9557922CA40F900F34DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92D9558822CA40FB00F34DB8 /* CitankiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitankiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,11 +95,12 @@
 		92D9560922CA476800F34DB8 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		92D9560A22CA476800F34DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92D9561322CA477200F34DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92D9561A22CA532300F34DB8 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
-		C2A5CBCDF79F436F18FB08D7 /* Pods-CitankiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.release.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E1AAFF2A99B4F29AB450FD08 /* Pods-CitankiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E75453419CCC840D87D2F493 /* Pods_Citanki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Citanki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1AD10E4274BDAE8D19EEB7D /* Pods-CitankiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiTests.release.xcconfig"; path = "Target Support Files/Pods-CitankiTests/Pods-CitankiTests.release.xcconfig"; sourceTree = "<group>"; };
+		92D9561A22CA532300F34DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988EDD4FB9893D065BC49E91 /* Pods-Citanki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.release.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.release.xcconfig"; sourceTree = "<group>"; };
+		9FE7170F46C3CB1333B27909 /* Pods-CitankiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiTests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiTests/Pods-CitankiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D987305E025B7E7011D5C29E /* Pods-CitankiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.release.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF14341587D13DFD3252F7FE /* Pods_CitankiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitankiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FC6A3ACB4247AD7FE177CA /* Pods_CitankiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitankiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCB22666ABD7792DDDC3BBF /* Pods_Citanki.framework in Frameworks */,
+				0DA38D33682D6EA919F3CE92 /* Pods_Citanki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				941F564F6A6F54F6D367D13E /* Pods_CitankiTests.framework in Frameworks */,
+				27119EC2867A691640D6D9E4 /* Pods_CitankiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,32 +124,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA22AE56C7F87E0C39EB408 /* Pods_CitankiUITests.framework in Frameworks */,
+				EB310C2A9DD20E58915C18B5 /* Pods_CitankiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31E8A2FBBC8DCA616545C10E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E75453419CCC840D87D2F493 /* Pods_Citanki.framework */,
-				8D59DBD5FB673FA2CF520328 /* Pods_CitankiTests.framework */,
-				2F06BB15EE60270E135A02F7 /* Pods_CitankiUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4A14DD320848833827597DD9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90C8D4A6AA0C12B10C8FFE34 /* Pods-Citanki.debug.xcconfig */,
-				06617C807AC04F243602E753 /* Pods-Citanki.release.xcconfig */,
-				80A6C0C3946BB9AEF156EFA3 /* Pods-CitankiTests.debug.xcconfig */,
-				F1AD10E4274BDAE8D19EEB7D /* Pods-CitankiTests.release.xcconfig */,
-				E1AAFF2A99B4F29AB450FD08 /* Pods-CitankiUITests.debug.xcconfig */,
-				C2A5CBCDF79F436F18FB08D7 /* Pods-CitankiUITests.release.xcconfig */,
+				8ED487D1DFFED2A461AA76CE /* Pods-Citanki.debug.xcconfig */,
+				988EDD4FB9893D065BC49E91 /* Pods-Citanki.release.xcconfig */,
+				9FE7170F46C3CB1333B27909 /* Pods-CitankiTests.debug.xcconfig */,
+				4CD3B8D79007CD9AD34E3762 /* Pods-CitankiTests.release.xcconfig */,
+				519D4FD7501BB43EF197DFB1 /* Pods-CitankiUITests.debug.xcconfig */,
+				D987305E025B7E7011D5C29E /* Pods-CitankiUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,7 +152,7 @@
 				92D9559622CA40FB00F34DB8 /* CitankiUITests */,
 				92D9557522CA40F900F34DB8 /* Products */,
 				4A14DD320848833827597DD9 /* Pods */,
-				31E8A2FBBC8DCA616545C10E /* Frameworks */,
+				DE1752A76C69D90182B45D7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,7 +171,7 @@
 			children = (
 				92D9561322CA477200F34DB8 /* Assets.xcassets */,
 				92D9557922CA40F900F34DB8 /* ViewController.swift */,
-				92D9561A22CA532300F34DB8 /* info.plist */,
+				92D9561A22CA532300F34DB8 /* Info.plist */,
 				92D9560322CA476800F34DB8 /* Controllers */,
 				92D9560122CA476800F34DB8 /* Delegates */,
 				92D955F222CA475F00F34DB8 /* Model */,
@@ -285,6 +274,16 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		DE1752A76C69D90182B45D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66AA8A0FA85D27C4CCE1C654 /* Pods_Citanki.framework */,
+				DF14341587D13DFD3252F7FE /* Pods_CitankiTests.framework */,
+				F8FC6A3ACB4247AD7FE177CA /* Pods_CitankiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -292,11 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D9559C22CA40FB00F34DB8 /* Build configuration list for PBXNativeTarget "Citanki" */;
 			buildPhases = (
-				958D9F2AEB462FDFA30D2118 /* [CP] Check Pods Manifest.lock */,
+				8157B7F7508ABEE4804AF2AC /* [CP] Check Pods Manifest.lock */,
 				92D9557022CA40F900F34DB8 /* Sources */,
 				92D9557122CA40F900F34DB8 /* Frameworks */,
 				92D9557222CA40F900F34DB8 /* Resources */,
-				0D94EC34EC6586E97576B696 /* [CP] Embed Pods Frameworks */,
+				527332E1C05709F0BB7238D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,7 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D9559F22CA40FB00F34DB8 /* Build configuration list for PBXNativeTarget "CitankiTests" */;
 			buildPhases = (
-				120EB08FC6C5B8ECCBCD1DF1 /* [CP] Check Pods Manifest.lock */,
+				160620D9F59CBAC453603AF2 /* [CP] Check Pods Manifest.lock */,
 				92D9558422CA40FB00F34DB8 /* Sources */,
 				92D9558522CA40FB00F34DB8 /* Frameworks */,
 				92D9558622CA40FB00F34DB8 /* Resources */,
@@ -330,7 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D955A222CA40FB00F34DB8 /* Build configuration list for PBXNativeTarget "CitankiUITests" */;
 			buildPhases = (
-				1172CA5434DB43779110B2B4 /* [CP] Check Pods Manifest.lock */,
+				7036CFB08A89DCCB9AC4290E /* [CP] Check Pods Manifest.lock */,
 				92D9558F22CA40FB00F34DB8 /* Sources */,
 				92D9559022CA40FB00F34DB8 /* Frameworks */,
 				92D9559122CA40FB00F34DB8 /* Resources */,
@@ -395,7 +394,6 @@
 			files = (
 				92D955FF22CA475F00F34DB8 /* Main.storyboard in Resources */,
 				92D955EB22CA474900F34DB8 /* DeckTableViewCell.xib in Resources */,
-				92D9561B22CA532300F34DB8 /* info.plist in Resources */,
 				92D955E422CA474900F34DB8 /* PhotoCollectionViewCell.xib in Resources */,
 				92D955ED22CA474900F34DB8 /* CardTableViewCell.xib in Resources */,
 				92D955FE22CA475F00F34DB8 /* LaunchScreen.storyboard in Resources */,
@@ -422,46 +420,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D94EC34EC6586E97576B696 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1172CA5434DB43779110B2B4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CitankiUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		120EB08FC6C5B8ECCBCD1DF1 /* [CP] Check Pods Manifest.lock */ = {
+		160620D9F59CBAC453603AF2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,7 +442,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		958D9F2AEB462FDFA30D2118 /* [CP] Check Pods Manifest.lock */ = {
+		527332E1C05709F0BB7238D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Citanki/Pods-Citanki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7036CFB08A89DCCB9AC4290E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CitankiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8157B7F7508ABEE4804AF2AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -702,7 +700,7 @@
 		};
 		92D9559D22CA40FB00F34DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90C8D4A6AA0C12B10C8FFE34 /* Pods-Citanki.debug.xcconfig */;
+			baseConfigurationReference = 8ED487D1DFFED2A461AA76CE /* Pods-Citanki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -721,7 +719,7 @@
 		};
 		92D9559E22CA40FB00F34DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06617C807AC04F243602E753 /* Pods-Citanki.release.xcconfig */;
+			baseConfigurationReference = 988EDD4FB9893D065BC49E91 /* Pods-Citanki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -740,7 +738,7 @@
 		};
 		92D955A022CA40FB00F34DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80A6C0C3946BB9AEF156EFA3 /* Pods-CitankiTests.debug.xcconfig */;
+			baseConfigurationReference = 9FE7170F46C3CB1333B27909 /* Pods-CitankiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -762,7 +760,7 @@
 		};
 		92D955A122CA40FB00F34DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1AD10E4274BDAE8D19EEB7D /* Pods-CitankiTests.release.xcconfig */;
+			baseConfigurationReference = 4CD3B8D79007CD9AD34E3762 /* Pods-CitankiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -784,7 +782,7 @@
 		};
 		92D955A322CA40FB00F34DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1AAFF2A99B4F29AB450FD08 /* Pods-CitankiUITests.debug.xcconfig */;
+			baseConfigurationReference = 519D4FD7501BB43EF197DFB1 /* Pods-CitankiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -805,7 +803,7 @@
 		};
 		92D955A422CA40FB00F34DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2A5CBCDF79F436F18FB08D7 /* Pods-CitankiUITests.release.xcconfig */;
+			baseConfigurationReference = D987305E025B7E7011D5C29E /* Pods-CitankiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
