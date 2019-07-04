@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0DA38D33682D6EA919F3CE92 /* Pods_Citanki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AA8A0FA85D27C4CCE1C654 /* Pods_Citanki.framework */; };
 		27119EC2867A691640D6D9E4 /* Pods_CitankiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF14341587D13DFD3252F7FE /* Pods_CitankiTests.framework */; };
+		9296474322CD177000383D0D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9296474222CD177000383D0D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		9296474722CE36E200383D0D /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9296474622CE36E200383D0D /* ImageClassifier.mlmodel */; };
 		92D9557A22CA40F900F34DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9557922CA40F900F34DB8 /* ViewController.swift */; };
 		92D9558D22CA40FB00F34DB8 /* CitankiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9558C22CA40FB00F34DB8 /* CitankiTests.swift */; };
 		92D9559822CA40FB00F34DB8 /* CitankiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9559722CA40FB00F34DB8 /* CitankiUITests.swift */; };
@@ -37,6 +39,10 @@
 		92D9561122CA476800F34DB8 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560922CA476800F34DB8 /* PhotosViewController.swift */; };
 		92D9561222CA476800F34DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9560A22CA476800F34DB8 /* AppDelegate.swift */; };
 		92D9561422CA477200F34DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D9561322CA477200F34DB8 /* Assets.xcassets */; };
+		92F875DC22CCD448000A278C /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F875DB22CCD448000A278C /* FaceDetectionViewController.swift */; };
+		92F875DF22CCD56B000A278C /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F875DE22CCD56B000A278C /* FaceView.swift */; };
+		92F875E222CCD72C000A278C /* UIImage+CropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F875E122CCD72C000A278C /* UIImage+CropImage.swift */; };
+		92F875E422CCD9F6000A278C /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F875E322CCD9F6000A278C /* CoreGraphicsExtensions.swift */; };
 		EB310C2A9DD20E58915C18B5 /* Pods_CitankiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FC6A3ACB4247AD7FE177CA /* Pods_CitankiUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +68,8 @@
 		519D4FD7501BB43EF197DFB1 /* Pods-CitankiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66AA8A0FA85D27C4CCE1C654 /* Pods_Citanki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Citanki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED487D1DFFED2A461AA76CE /* Pods-Citanki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.debug.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.debug.xcconfig"; sourceTree = "<group>"; };
+		9296474222CD177000383D0D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		9296474622CE36E200383D0D /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 		92D9557422CA40F900F34DB8 /* Citanki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citanki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D9557922CA40F900F34DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92D9558822CA40FB00F34DB8 /* CitankiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitankiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +104,10 @@
 		92D9560A22CA476800F34DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92D9561322CA477200F34DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92D9561A22CA532300F34DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F875DB22CCD448000A278C /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		92F875DE22CCD56B000A278C /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		92F875E122CCD72C000A278C /* UIImage+CropImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CropImage.swift"; sourceTree = "<group>"; };
+		92F875E322CCD9F6000A278C /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
 		988EDD4FB9893D065BC49E91 /* Pods-Citanki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citanki.release.xcconfig"; path = "Target Support Files/Pods-Citanki/Pods-Citanki.release.xcconfig"; sourceTree = "<group>"; };
 		9FE7170F46C3CB1333B27909 /* Pods-CitankiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiTests.debug.xcconfig"; path = "Target Support Files/Pods-CitankiTests/Pods-CitankiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D987305E025B7E7011D5C29E /* Pods-CitankiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitankiUITests.release.xcconfig"; path = "Target Support Files/Pods-CitankiUITests/Pods-CitankiUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,9 +181,12 @@
 		92D9557622CA40F900F34DB8 /* Citanki */ = {
 			isa = PBXGroup;
 			children = (
+				9296474622CE36E200383D0D /* ImageClassifier.mlmodel */,
+				92F875E022CCD714000A278C /* Extensions */,
 				92D9561322CA477200F34DB8 /* Assets.xcassets */,
 				92D9557922CA40F900F34DB8 /* ViewController.swift */,
 				92D9561A22CA532300F34DB8 /* Info.plist */,
+				92F875DD22CCD550000A278C /* Views */,
 				92D9560322CA476800F34DB8 /* Controllers */,
 				92D9560122CA476800F34DB8 /* Delegates */,
 				92D955F222CA475F00F34DB8 /* Model */,
@@ -270,8 +285,27 @@
 				92D9560822CA476800F34DB8 /* PhotoTextViewController.swift */,
 				92D9560922CA476800F34DB8 /* PhotosViewController.swift */,
 				92D9560A22CA476800F34DB8 /* AppDelegate.swift */,
+				92F875DB22CCD448000A278C /* FaceDetectionViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		92F875DD22CCD550000A278C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92F875DE22CCD56B000A278C /* FaceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92F875E022CCD714000A278C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92F875E122CCD72C000A278C /* UIImage+CropImage.swift */,
+				92F875E322CCD9F6000A278C /* CoreGraphicsExtensions.swift */,
+				9296474222CD177000383D0D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DE1752A76C69D90182B45D7A /* Frameworks */ = {
@@ -513,21 +547,27 @@
 				92D9560E22CA476800F34DB8 /* SearchViewController.swift in Sources */,
 				92D955E622CA474900F34DB8 /* DeckTableViewCell.swift in Sources */,
 				92D9561222CA476800F34DB8 /* AppDelegate.swift in Sources */,
+				9296474322CD177000383D0D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				92D955E822CA474900F34DB8 /* CardTableViewCell.swift in Sources */,
 				92D955FD22CA475F00F34DB8 /* Deck.swift in Sources */,
 				92D955FB22CA475F00F34DB8 /* CoreDataModel.swift in Sources */,
+				9296474722CE36E200383D0D /* ImageClassifier.mlmodel in Sources */,
 				92D955E722CA474900F34DB8 /* HeaderCardsTable.swift in Sources */,
 				92D9557A22CA40F900F34DB8 /* ViewController.swift in Sources */,
 				92D955EC22CA474900F34DB8 /* PhotoCollectionViewCell.swift in Sources */,
+				92F875E422CCD9F6000A278C /* CoreGraphicsExtensions.swift in Sources */,
 				92D9560C22CA476800F34DB8 /* DetailsDeckViewController.swift in Sources */,
 				92D9561122CA476800F34DB8 /* PhotosViewController.swift in Sources */,
 				92D9560B22CA476800F34DB8 /* NotificationDelegate.swift in Sources */,
+				92F875E222CCD72C000A278C /* UIImage+CropImage.swift in Sources */,
 				92D9560D22CA476800F34DB8 /* PeekViewViewController.swift in Sources */,
+				92F875DC22CCD448000A278C /* FaceDetectionViewController.swift in Sources */,
 				92D9560022CA475F00F34DB8 /* QuotesApi.swift in Sources */,
 				92D9560F22CA476800F34DB8 /* DecksViewController.swift in Sources */,
 				92D955FC22CA475F00F34DB8 /* Citanki.xcdatamodeld in Sources */,
 				92D9561022CA476800F34DB8 /* PhotoTextViewController.swift in Sources */,
 				92D955E522CA474900F34DB8 /* HeaderNewDeck.swift in Sources */,
+				92F875DF22CCD56B000A278C /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
